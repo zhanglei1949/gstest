@@ -55,7 +55,7 @@ schema:
         - property_id: 5
           property_name: creationDate
           property_type:
-            primitive_type: DT_SIGNED_INT64
+            date: "date"
         - property_id: 6
           property_name: locationIP
           property_type:
@@ -86,7 +86,7 @@ schema:
         - property_id: 1
           property_name: creationDate
           property_type:
-            primitive_type: DT_SIGNED_INT64
+            date: "date"
         - property_id: 2
           property_name: locationIP
           property_type:
@@ -121,7 +121,7 @@ schema:
         - property_id: 2
           property_name: creationDate
           property_type:
-            primitive_type: DT_SIGNED_INT64
+            date: "date"
         - property_id: 3
           property_name: locationIP
           property_type:
@@ -160,7 +160,7 @@ schema:
         - property_id: 2
           property_name: creationDate
           property_type:
-            primitive_type: DT_SIGNED_INT64
+            date: "date"
       primary_keys:
         - id
     - type_id: 5
@@ -271,7 +271,7 @@ schema:
         - property_id: 0
           property_name: joinDate
           property_type:
-            primitive_type: DT_SIGNED_INT64
+            date: "date"
     - type_id: 5
       type_name: HASMODERATOR
       x_csr_params:
@@ -311,7 +311,7 @@ schema:
         - property_id: 0
           property_name: creationDate
           property_type:
-            primitive_type: DT_SIGNED_INT64
+            date: "date"
     - type_id: 9
       type_name: LIKES
       vertex_type_pair_relations:
@@ -325,7 +325,7 @@ schema:
         - property_id: 0
           property_name: creationDate
           property_type:
-            primitive_type: DT_SIGNED_INT64
+            date: "date"
     - type_id: 10
       type_name: WORKAT
       vertex_type_pair_relations:
